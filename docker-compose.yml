@@ -21,7 +21,7 @@ services:
     ports:
       - "9992:9864"
       - "8042:8042"
-#  spark:
-#    build: ./spark
-#    container_name: "spark"
+  spark:
+    build: ./spark
+    container_name: "spark"
 #
